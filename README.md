@@ -1,1 +1,1 @@
-# typeracer_webdev_0.3
+typeracer_webdev_0.3

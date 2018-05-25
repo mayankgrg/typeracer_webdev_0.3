@@ -1,0 +1,104 @@
+body.img{
+  background: url('img.jpg'), no-repeat;
+  background opacity: 0.5;
+    background-size: cover;
+}
+a.SUBMIT input[type="submit"]
+{
+  border: 2px solid black;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 20px;
+  text-shadow: 0 1px 2px white;
+  transition: color 0.25s ease-in-out 0s;
+  padding: 7px 2%;
+  text-align: center;
+  margin: 0 auto;
+}
+#homepage{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.loginbox{
+  width: 280px;
+  height: 300px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 40px 30px;
+}
+.loginbox input{
+  width: 225px;
+  margin-bottom: 20px;
+}
+#button
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+#button:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.loginbox input[type="text"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 25px;
+}
+div.div{
+  font-size: 26px;
+  font-style: normal bolder sans-serif;
+  background-color: lightgray;
+  text-align: center;
+}
+#textarea{
+  font-size: 26px;
+  font-style: normal bolder sans-serif;
+  background-color: lightgreen;
+  text-align: left;
+}
+#backg{
+  background-color: lightblue;
+}
+#typeracer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-style: sans-serif;
+  height: 60px;
+  padding: none;
+  margin: 0;
+  border: none;
+}
+#p{
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  font-style: bolder sans-serif;
+}
+#a{
+  font-size: 25px;
+
+}

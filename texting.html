@@ -1,0 +1,50 @@
+<!DOCTYPE --html-->
+<html>
+<head>
+  <title>MY TYPERACER</title>
+  <meta charset="utf-8">
+  <h1 id="typeracer">TYPERACER</h1>
+</head>
+<body id="backg">
+  <link href="style.css" rel="stylesheet">
+  <div class="div">
+    <p>Bhagat Singh, a Sandhu Jat, was born in 1907 to Kishan Singh and Vidyavati at Chak No. 105 GB, Banga village, Jaranwala Tehsil in the Lyallpur district of the Punjab Province of British India. His birth coincided with the release of his father and two uncles, Ajit Singh and Swaran Singh, from jail. His family members were Sikhs; some had been active in Indian Independence movements, others had served in Maharaja Ranjit Singh's army. His ancestral village was Khatkar Kalan, near the town of Banga, India in Nawanshahr district (now renamed Shaheed Bhagat Singh Nagar) of the Punjab.
+    </p>
+  </div>
+  <p id="p">CHECK YOUR TYPING SPEED HERE. START TYPING THE ABOVE TEXT WHEN YOU ARE READY.</p>
+  <form>
+  <textarea id="textarea" rows="10" cols="130" onclick="timerstarts()"></textarea>
+  <script type="text/javascript">
+    var mytext="Bhagat Singh, a Sandhu Jat, was born in 1907 to Kishan Singh and Vidyavati at Chak No. 105 GB, Banga village, Jaranwala Tehsil in the Lyallpur district of the Punjab Province of British India. His birth coincided with the release of his father and two uncles, Ajit Singh and Swaran Singh, from jail. His family members were Sikhs; some had been active in Indian Independence movements, others had served in Maharaja Ranjit Singh's army. His ancestral village was Khatkar Kalan, near the town of Banga, India in Nawanshahr district (now renamed Shaheed Bhagat Singh Nagar) of the Punjab."
+      var yourtext=document.getElementById("textarea").value;
+      var b;
+      function timerstarts(){
+        var a=new Date();
+        b=a.getTime();
+      }
+      function submit(){
+        var c=new Date();
+        var d=c.getTime();
+        var speed=mytext.length/time(d,b);
+        if(mytext == document.getElementById("textarea").value)
+        {
+          document.getElementById("speed").innerHTML = speed +"Character/seconds";
+        }
+        else{
+          window.alert("error");
+        }
+      }
+      function time(a,c)
+      {
+        var a;
+        var c;
+        var e=a-c;
+        var typingtime=e/1000;
+        return typingtime;
+      }
+  </script>
+</form>
+	<input type="submit" value="SUBMIT" id="button" onclick="submit()">
+	<p id="speed" style="font-size: 30px"></p>
+</body>
+</html>
